@@ -1,0 +1,14 @@
+{
+  "require": {
+    "slim/slim": "4.*",
+    "slim/psr7": "^1.6",
+    "ext-pdo": "*",
+    "ext-curl": "*",
+    "ext-ctype": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/"
+    }
+  }
+}
